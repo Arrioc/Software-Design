@@ -258,8 +258,11 @@ My plan for software engineering and design is to improve the software by creati
 
   * **References**
    * ###### Chodorow, K. (2013). Mongo DB: The definitive guide (2nd ed.). O’Reilly Media, Inc. https://www.oreilly.com/library/view/mongodb-the-definitive/9781449344795/
+   
    * ###### Sriparasa, S., & D’mello, B. (2018). JavaScript and JSON essentials : Build light weight, scalable, and faster web applications with the power of JSON (2nd ed.). Packt Publishing. https://search-ebscohost-com.ezproxy.snhu.edu/login.aspx?direct=true&db=nlebk&AN=1801025&site=eds-live&scope=site
+   
    * ###### Educative, Inc. (2021). What is the difference between json.loads() and json.dumps()? https://www.educative.io/edpresso/what-is-the-difference-between-jsonloads-and-jsondumps
-   * ###### Stack Exchange Inc. (2015, December 28). Pretty printing of output in Pymongo. StackOverflow. Retrieved May 22, 2021, from
-https://stackoverflow.com/questions/34493535/pretty-printing-of-output-in-pymongo
+   
+   * ###### Stack Exchange Inc. (2015, December 28). Pretty printing of output in Pymongo. StackOverflow. Retrieved May 22, 2021, from https://stackoverflow.com/questions/34493535/pretty-printing-of-output-in-pymongo
+
 
