@@ -1,5 +1,5 @@
 ## Sections
-[Introduction](https://arrioc.github.io/Introduction/) | [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/) | [Database](https://arrioc.github.io/Portfolio-Database/) | [Source Code](https://github.com/Arrioc/Enhanced-Artifact)
+[Introduction](https://arrioc.github.io/Introduction/) | [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/) | [Database](https://arrioc.github.io/Portfolio-Database/) | [Old Source Code](https://github.com/Arrioc/CS340_client-server) | [Enhanced Source Code](https://github.com/Arrioc/Enhanced-Artifact)
 
 # Software Design & Engineering
 My plan for software engineering and design is to improve the software by creating more readable output, more user-friendly input, and a well-rounded 'update' module for the API which will help to deliver better value. I will also remove unused code, improve commenting and try to fix any bugs.
@@ -255,6 +255,8 @@ My plan for software engineering and design is to improve the software by creati
   * As I worked to remove user formatting issues such as having the user input data in JSON or with quotes, I was faced with the challenge of needing to know exactly what the JSON utility, “loads”, and “dumps” were doing to the input code. I researched “loads” and “dumps” to refresh my memory and found a great site that explains specifically what they do. Loads turns strings into JSON objects, and dumps turns JSON objects into strings (Educative, Inc., 2021). Understanding “loads” and “dumps” allowed me format input for the user, simplifying thier tasks. This understanding also helped me my next task- fixing output readability.
   
   * I almost gave up creating more readable output because sites like StackOverflow repeatedly siad it was not possible (Stack Exchange Inc, 2015). Help-site opinions are not always accurate. Sometimes it helps to ignore opinions and dive deeper. For me, it helped to study an old exercise (a “timestamp” module) whose output to the terminal looked ideal. The code used “loads” before printing, and then use “dumps” along with some commands inside the print statement. Inside the print parentheses, after the string or variable to print, one can write “indent=4, default=json_util.default.” This indents the data, making it more exposed and orderly. I then applied this knowledge to every module that outputs data, including the API (for future developers). I then made a post about my discovery to StackOverflow, for future questioners like myself. Since then, someone edited it to look nicer using color coding and highlighting, which I was surprised to see.
+
+Next is [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/)
 
 &nbsp;
 &nbsp;
