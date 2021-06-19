@@ -256,7 +256,7 @@ My plan for software engineering and design is to improve the software by creati
   
   * I almost gave up creating more readable output because sites like StackOverflow repeatedly siad it was not possible (Stack Exchange Inc, 2015). Help-site opinions are not always accurate. Sometimes it helps to ignore opinions and dive deeper. For me, it helped to study an old exercise (a “timestamp” module) whose output to the terminal looked ideal. The code used “loads” before printing, and then use “dumps” along with some commands inside the print statement. Inside the print parentheses, after the string or variable to print, one can write “indent=4, default=json_util.default.” This indents the data, making it more exposed and orderly. I then applied this knowledge to every module that outputs data, including the API (for future developers). I then made a post about my discovery to StackOverflow, for future questioners like myself. Since then, someone edited it to look nicer using color coding and highlighting, which I was surprised to see.
 
-Next is [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/)
+  * Next is [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/)
 
 &nbsp;
 &nbsp;
