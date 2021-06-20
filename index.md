@@ -263,7 +263,7 @@ My plan for software engineering and design is to improve the software by creati
    * ![APIupdate database before and after](https://user-images.githubusercontent.com/73560858/121099895-bfc8ec00-c7c6-11eb-95d4-724091db8373.png)
   
   * ## Bug & Structure Fixes:
-   * Bug Exit Problem Before - Module Calls Twice on Exit:
+   * Bug Exit Problem Before - API Modules Call Twice on Exit:
    * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
 
    * Bug Exit Problem After - Exits Properly:
