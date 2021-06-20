@@ -16,8 +16,6 @@ My plan for software engineering and design is to improve the software by creati
        <details>
          <summary>Click to expand and view the code!</summary>
 
-         <p>
-
          ```python
          import json
          from bson import json_util
@@ -99,7 +97,6 @@ My plan for software engineering and design is to improve the software by creati
          modify_main()
          ```
 
-         </p> 
        </details>
 
    * User Input Before Enhancement:
