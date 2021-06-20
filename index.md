@@ -269,16 +269,16 @@ My plan for software engineering and design is to improve the software by creati
    * Bug Exit Problem After - Exits Properly:
    * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
 
-   * Bug Culprit (Recalling on Exit Stopped by Removing This):
+   * Bug Culprit (call on Exit Fixed by Removing This):
    * ![cause of bug2](https://user-images.githubusercontent.com/73560858/122687479-b25b2b00-d1e4-11eb-8950-9b0d414029ba.png)
 
    * Structure Issue Before - Program Not Exiting After Bad Entry:
    * ![structureFixBefore](https://user-images.githubusercontent.com/73560858/122687544-fd753e00-d1e4-11eb-9ad0-d7b85893fd01.png)
    
-   * Structure Issue After - Solved by restructuring code:
+   * Structure Issue After - Solved by Restructuring Code:
    * ![structureFixAfter](https://user-images.githubusercontent.com/73560858/122687567-18e04900-d1e5-11eb-97fa-e83e15d53d0c.png)
 
-   * Structure Fix - Nesting with if/else:
+   * Structure Fix - Nesting With if/else:
    * ![structureGlitchFix](https://user-images.githubusercontent.com/73560858/122687881-e6cfe680-d1e6-11eb-9fcd-8906678265c5.png)
 
 * ## Reflecting on the Process
