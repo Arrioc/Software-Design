@@ -97,7 +97,7 @@ My plan for software engineering and design is to improve the software by creati
          modify_main()
          ```
 
-</details>
+       </details>
 
    * User Input Before Enhancement:
    * ![internal update before3](https://user-images.githubusercontent.com/73560858/121097947-dcfbbb80-c7c2-11eb-9189-6c3ce43830d9.png)
