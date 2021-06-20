@@ -15,6 +15,7 @@ My plan for software engineering and design is to improve the software by creati
   * ## Better User Input:
     <details>
     <summary>Click to expand and view the code!</summary>
+
     <p>
  
     ```python
