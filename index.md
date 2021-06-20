@@ -16,7 +16,7 @@ My plan for software engineering and design is to improve the software by creati
     <details>
       <summary>Click to expand and view the code!</summary>
 
-      ```python
+```python
       import json
       from bson import json_util
       from pymongo import MongoClient, errors
@@ -97,6 +97,7 @@ My plan for software engineering and design is to improve the software by creati
 
       modify_main()
       ```
+ 
     </details>
 
    * User Input Before Enhancement:
