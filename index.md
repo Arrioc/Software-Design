@@ -13,8 +13,8 @@ My plan for software engineering and design is to improve the software by creati
   * I met the planned objectives for creating more readable output, more user-friendly input, and a well-rounded update module for the API which helps to deliver better value. The artifact now has improved readability by integrating JSON code into specific inputs and outputs, for all modules that output data to the user. The artifact now has friendlier user input capability for all modules, by removing code that required the user to preformat their own inputs and injecting code that preformats the inputs for them using the JSON and Pymongo language. This allowed me to remove "bad formatting" error catch blocks. The API update module now better reflects the industry specific goal for update functionality by allowing the user to update any field in a specified document (not just the “volumes” field), or insert a new one, using the simple but effective solution of adding a variable to the CURL which is extracted and queried. I also added needed annotation comments to every module and fixed a bug for the API modules that would reprint the last response posted in the terminal as one exits. 
 
   * ## Better User Input:
-  <details>
-  *   <summary>Click to expand and view the code!</summary>
+    <details>
+      <summary>Click to expand and view the code!</summary>
 
       ```python
       import json
