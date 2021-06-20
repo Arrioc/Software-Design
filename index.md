@@ -261,6 +261,25 @@ My plan for software engineering and design is to improve the software by creati
    
    * Database Before and After CURL:
    * ![APIupdate database before and after](https://user-images.githubusercontent.com/73560858/121099895-bfc8ec00-c7c6-11eb-95d4-724091db8373.png)
+  
+  * ## Bug & Structure Fixes:
+   * Bug Exit Problem before:
+   * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
+
+   * Bug Exit Problem After:
+   * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
+
+   * Bug Culprit (Recalling on Exit Stopped by Removing This):
+   * ![cause of bug2](https://user-images.githubusercontent.com/73560858/122687479-b25b2b00-d1e4-11eb-8950-9b0d414029ba.png)
+
+   * Structure Issue Before - Program Not Exiting After Bad Entry:
+   * ![structureFixBefore](https://user-images.githubusercontent.com/73560858/122687544-fd753e00-d1e4-11eb-9ad0-d7b85893fd01.png)
+   
+   * Structure Issue After - Solved by restructuring code:
+   * ![structureFixAfter](https://user-images.githubusercontent.com/73560858/122687567-18e04900-d1e5-11eb-97fa-e83e15d53d0c.png)
+
+   * Structure Fix - Nesting with if/else:
+   * ![structureGlitchFix](https://user-images.githubusercontent.com/73560858/122687881-e6cfe680-d1e6-11eb-9fcd-8906678265c5.png)
 
 * ## Reflecting on the Process
   * As I worked to improve the API’s update program to accept any user field, after many failures, I began examining other examples of ways in which CURLS can be made. By observing in the “stockReport” module that I was able to take a key variable “array” to input its value, an idea occurred to me. I could simply create a new “key” variable for the CURL whose value would be the embedded key and value which I wanted to extract. I applied the idea to the module, and it worked. 
