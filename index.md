@@ -105,69 +105,74 @@ My plan for software engineering and design is to improve the software by creati
    * User Input After Enhancement:
    * ![internal update, after](https://user-images.githubusercontent.com/73560858/121097482-09630800-c7c2-11eb-936e-2f46bb8b08f4.png)
 
-  * ## Better Readability Code: 
-  * ```python
-    import json
-    from bson import json_util
-    from pymongo import MongoClient, errors
-    from bson.json_util import dumps
-    from bottle import get, route, run, request, abort
+  * ## Better Readability:
+    <details>
+      <summary>Click to expand and view the code!</summary>
 
-    connection = MongoClient('localhost', 27017)
-    db = connection['market']
-    collection = db['stocks']
+      ```python
+      import json
+      from bson import json_util
+      from pymongo import MongoClient, errors
+      from bson.json_util import dumps
+      from bottle import get, route, run, request, abort
 
-    # This method executes the aggregation pipeline, then reports
-    # a portfolio on the top five shares with the given aggregation 
-    # criteria.
+      connection = MongoClient('localhost', 27017)
+      db = connection['market']
+      collection = db['stocks']
 
-    #aggregate Function
-    def aggregate(aggreg): 
-      try:
-        myReadResult = collection.aggregate(aggreg)
-        print(myReadResult)
-        #if aggregation does not equal 'None'
-        if (myReadResult != None):
-          #convert to json and print                 
-          print("Top five shares grouped by company, strength, 200-Day SMA.")
-          print(dumps(myReadResult, indent=4, default=json_util.default)) 
-        return
-      except Exception as pm:
-        print(dumps("MongoDB returned error message", pm))
+      # This method executes the aggregation pipeline, then reports
+      # a portfolio on the top five shares with the given aggregation 
+      # criteria.
 
-    # This method extracts the CURLS's industry and sets up an
-    # aggregation pipeline with it. The aggregation matches the industry 
-    # and groups the top companies by thier relative strength index and 
-    # the highest 200-Day SMA. It then sorts them by their highest strength
-    # index. The method first reports an error if the industry doesnt exist, 
-    # it then sends the aggregation to the 'aggregation' function.
+      #aggregate Function
+      def aggregate(aggreg): 
+        try:
+          myReadResult = collection.aggregate(aggreg)
+          print(myReadResult)
+          #if aggregation does not equal 'None'
+          if (myReadResult != None):
+            #convert to json and print                 
+            print("Top five shares grouped by company, strength, 200-Day SMA.")
+            print(dumps(myReadResult, indent=4, default=json_util.default)) 
+          return
+        except Exception as pm:
+          print(dumps("MongoDB returned error message", pm))
 
-    #URI for REST service
-    @get('/stocks/api/v1.0/industryReport')
-    def main_aggregate_API():
+      # This method extracts the CURLS's industry and sets up an
+      # aggregation pipeline with it. The aggregation matches the industry 
+      # and groups the top companies by thier relative strength index and 
+      # the highest 200-Day SMA. It then sorts them by their highest strength
+      # index. The method first reports an error if the industry doesnt exist, 
+      # it then sends the aggregation to the 'aggregation' function.
 
-      #take value for query
-      industry = request.json["Industry"]
+      #URI for REST service
+      @get('/stocks/api/v1.0/industryReport')
+      def main_aggregate_API():
 
-      #aggregation filtering & projection criteria
-      aggregationQ = [{"$match" : {"Industry" : {"$regex" : ".*"+industry+".*"}}}, {"$sort" : {"HighestStrength" : -1}},
-                      {"$group" :  {"_id" : "$Company", "HighestStrength" : 
-                       {"$max" : "$Relative Strength Index (14)"},"Highest200-DaySMA" : 
-                       {"$max" : "$200-Day Simple Moving Average"}}},
-                       {"$limit" : 5}]
+        #take value for query
+        industry = request.json["Industry"]
 
-      #if industry query doesnt exist, print error
-      match = {"Industry" : {"$regex" : ".*"+industry+".*"}}
-      if (collection.find(match).count() == 0):
-        print("No Matches Found For:")
-        print(dumps(match))
-      #else send variables to aggregation function
-      else: 
-        myReadResult = aggregate(aggregationQ)
+        #aggregation filtering & projection criteria
+        aggregationQ = [{"$match" : {"Industry" : {"$regex" : ".*"+industry+".*"}}}, {"$sort" : {"HighestStrength" : -1}},
+                        {"$group" :  {"_id" : "$Company", "HighestStrength" : 
+                         {"$max" : "$Relative Strength Index (14)"},"Highest200-DaySMA" : 
+                         {"$max" : "$200-Day Simple Moving Average"}}},
+                         {"$limit" : 5}]
 
-    if __name__ == '__main__':
-        run(host='localhost', port=8080, debug=True)   
-    ```
+        #if industry query doesnt exist, print error
+        match = {"Industry" : {"$regex" : ".*"+industry+".*"}}
+        if (collection.find(match).count() == 0):
+          print("No Matches Found For:")
+          print(dumps(match))
+        #else send variables to aggregation function
+        else: 
+          myReadResult = aggregate(aggregationQ)
+
+      if __name__ == '__main__':
+          run(host='localhost', port=8080, debug=True)   
+      ```
+
+    </details>
     
    * Readability Before:
    * ![indusrtyReport server result](https://user-images.githubusercontent.com/73560858/121100869-b50f5680-c7c8-11eb-89a1-6c413dab85a4.png)
