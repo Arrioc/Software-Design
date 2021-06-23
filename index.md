@@ -262,12 +262,21 @@ My plan for software engineering and design is to improve the software by creati
 
     </details>
 
-   * Hard-Coded VS. Not Hard-Coded + CURLS Used:
-   * ![APIupdate, before, after, curl](https://user-images.githubusercontent.com/73560858/121099782-7e384100-c7c6-11eb-955e-31cca216d171.png)
+   * API Update Module Code- Hard-Coded: 
+   * ![APIupdate hard-coded](https://user-images.githubusercontent.com/73560858/123171231-84c2eb80-d449-11eb-97c2-beb89a437800.png)
    
-   * Database Before and After CURL:
-   * ![APIupdate database before and after](https://user-images.githubusercontent.com/73560858/121099895-bfc8ec00-c7c6-11eb-95d4-724091db8373.png)
-  
+   * API Update Module Code- Not Hard Coded:
+   * ![APIupdate not hard-coded2](https://user-images.githubusercontent.com/73560858/123171268-92787100-d449-11eb-98f1-bd47cf6c245b.png)
+
+   * API Update Database Before CURL:
+   * ![JK API update before](https://user-images.githubusercontent.com/73560858/123171348-afad3f80-d449-11eb-89e1-3a73026f2319.png)
+
+   * Update Client Side URL (CURL):
+   * ![JK API update curls](https://user-images.githubusercontent.com/73560858/123171309-a15f2380-d449-11eb-9148-2f2db3b8daaf.png)
+
+   * API Update Database After CURL:
+   * ![JK API update after2](https://user-images.githubusercontent.com/73560858/123171394-c2277900-d449-11eb-89a7-7d3c56818fba.png)
+
   * ## Bug & Structure Fixes:
    * Bug Exit Problem Before - API Modules Call Twice on Exit:
    * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
