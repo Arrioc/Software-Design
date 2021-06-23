@@ -272,7 +272,7 @@ My plan for software engineering and design is to improve the software by creati
    * ![JK API update before](https://user-images.githubusercontent.com/73560858/123171348-afad3f80-d449-11eb-89e1-3a73026f2319.png)
 
    * Client Side URL (CURL) Request For API Update:
-   * ![JK API update curls](https://user-images.githubusercontent.com/73560858/123171309-a15f2380-d449-11eb-9148-2f2db3b8daaf.png)
+   * ![JK API update curls2](https://user-images.githubusercontent.com/73560858/123172891-c94f8680-d44b-11eb-8d60-2b232cb3b7ec.png)
 
    * Database Document After CURL:
    * ![JK API update after2](https://user-images.githubusercontent.com/73560858/123171394-c2277900-d449-11eb-89a7-7d3c56818fba.png)
