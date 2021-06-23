@@ -262,10 +262,10 @@ My plan for software engineering and design is to improve the software by creati
 
     </details>
 
-   * API Update Module Code- Hard-Coded: 
+   * API Update Module Code - Hard-Coded: 
    * ![APIupdate hard-coded](https://user-images.githubusercontent.com/73560858/123171231-84c2eb80-d449-11eb-97c2-beb89a437800.png)
    
-   * API Update Module Code- Not Hard Coded:
+   * API Update Module Code - Not Hard-Coded:
    * ![APIupdate not hard-coded2](https://user-images.githubusercontent.com/73560858/123171268-92787100-d449-11eb-98f1-bd47cf6c245b.png)
 
    * API Update Database Before CURL:
