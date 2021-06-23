@@ -267,7 +267,7 @@ My plan for software engineering and design is to improve the software by creati
    * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
 
    * Bug Exit Problem After - Exits Properly:
-   * ![callsTwiceBug](https://user-images.githubusercontent.com/73560858/122687345-e84bdf80-d1e3-11eb-8068-739f50a5023e.png)
+   * ![callsTwiceBugAfter](https://user-images.githubusercontent.com/73560858/123109671-6ccb7780-d409-11eb-9177-019fdf2ed94a.png)
 
    * Bug Culprit (call on Exit Fixed by Removing This):
    * ![cause of bug2](https://user-images.githubusercontent.com/73560858/122687479-b25b2b00-d1e4-11eb-8950-9b0d414029ba.png)
