@@ -105,10 +105,10 @@ My plan for software engineering and design is to improve the software by creati
    * User Input After Enhancement:
    * ![internal update, after](https://user-images.githubusercontent.com/73560858/121097482-09630800-c7c2-11eb-936e-2f46bb8b08f4.png)
    
-   * Database Before:
+   * Database Document Segment Before Changes:
    * ![user input ehnacement, database before](https://user-images.githubusercontent.com/73560858/123166526-812c6600-d443-11eb-9bbe-47534c1c1f55.png)
    
-   * Database After - Note Modified Key & New Key:
+   * Database Document Segment After Changes (Note Modified Key & New Key):
    * ![user input ehnacement, database after](https://user-images.githubusercontent.com/73560858/123166630-a0c38e80-d443-11eb-8c81-57a80eb92b3a.png)
 
   * ## Better Readability:
