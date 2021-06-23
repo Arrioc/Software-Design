@@ -268,13 +268,13 @@ My plan for software engineering and design is to improve the software by creati
    * API Update Module Code - Not Hard-Coded:
    * ![APIupdate not hard-coded2](https://user-images.githubusercontent.com/73560858/123171268-92787100-d449-11eb-98f1-bd47cf6c245b.png)
 
-   * API Update Database Before CURL:
+   * Database Document Before CURL:
    * ![JK API update before](https://user-images.githubusercontent.com/73560858/123171348-afad3f80-d449-11eb-89e1-3a73026f2319.png)
 
-   * Update Client Side URL (CURL):
+   * Client Side URL (CURL) Request For API Update:
    * ![JK API update curls](https://user-images.githubusercontent.com/73560858/123171309-a15f2380-d449-11eb-9148-2f2db3b8daaf.png)
 
-   * API Update Database After CURL:
+   * Database Document After CURL:
    * ![JK API update after2](https://user-images.githubusercontent.com/73560858/123171394-c2277900-d449-11eb-89a7-7d3c56818fba.png)
 
   * ## Bug & Structure Fixes:
